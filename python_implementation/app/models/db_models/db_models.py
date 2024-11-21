@@ -11,7 +11,6 @@ from sqlalchemy import (
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from datetime import datetime
-
 Base = declarative_base()
 
 class Coupon(Base):
@@ -81,8 +80,6 @@ class Product(Base):
     created_at = Column(DateTime, default=datetime.now())
     updated_at = Column(DateTime, default=datetime.now(), onupdate=datetime.now())
 
-    orders = relationship("Order", backref="product")
-
     def __repr__(self):
         return f"<Product(name={self.name}, price={self.price}, stock_quantity={self.stock_quantity})>"
 
@@ -98,7 +95,7 @@ class User(Base):
     last_name = Column(String(100))
     created_at = Column(DateTime, default=datetime.now())
 
-    coupons_used = relationship("CouponUsage", backref="user")
+    coupons_used = relationship("CouponUsage", backref="users")
 
     def __repr__(self):
         return f"<User(username={self.username}, email={self.email})>"
@@ -109,7 +106,8 @@ class Order(Base):
 
     order_id = Column(Integer, primary_key=True, autoincrement=True)
     user_id = Column(Integer, ForeignKey("users.user_id"))
-    product_id = Column(Integer, ForeignKey("products.product_id"))
+    product_ids = Column(String(255), nullable=False)
+    coupon_ids = Column(String(255), default=None)
     order_time = Column(DateTime, default=datetime.now())
     
     def __repr__(self):
