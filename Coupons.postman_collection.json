@@ -8,7 +8,7 @@
 	},
 	"item": [
 		{
-			"name": "http://127.0.0.1:3000/coupons/",
+			"name": "Get Coupons",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -31,7 +31,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:3000/coupons/",
+			"name": "Save New Coupon",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -63,7 +63,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:3000/coupons/2",
+			"name": "Get Coupon By Id",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -86,7 +86,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:3000/coupons/15",
+			"name": "Update Coupon By Id",
 			"request": {
 				"method": "PUT",
 				"header": [],
@@ -118,7 +118,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:3000/coupons/11",
+			"name": "Delete Coupon By Id",
 			"request": {
 				"method": "DELETE",
 				"header": [],
@@ -141,7 +141,7 @@
 			"response": []
 		},
 		{
-			"name": "http://127.0.0.1:3000/coupons/apply-coupon/11",
+			"name": "Apply Coupon",
 			"request": {
 				"method": "POST",
 				"header": [],

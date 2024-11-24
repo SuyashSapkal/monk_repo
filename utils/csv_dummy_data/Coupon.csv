@@ -1,0 +1,11 @@
+coupon_id,coupon_code,coupon_name,coupon_type,discount_value,status,start_date,end_date
+1,DISCOUNT10,10% Off,percentage,10.00,active,2024-01-01 00:00:00,2024-12-31 23:59:59
+2,BLACKFRIDAY,Black Friday Sale,percentage,20.00,active,2024-11-25 00:00:00,2024-11-25 23:59:59
+3,SPRINGSALE,Summer Spring Sale,fixed,15.00,active,2024-03-01 00:00:00,2024-05-31 23:59:59
+4,XMAS20,Christmas Special,percentage,20.00,expired,2023-12-01 00:00:00,2023-12-31 23:59:59
+5,FREESHIP,Free Shipping,fixed,5.00,active,2024-06-01 00:00:00,2024-12-31 23:59:59
+6,NEWYEAR,New Year Discount,percentage,25.00,active,2025-01-01 00:00:00,2025-01-15 23:59:59
+7,VIP100,VIP Member Discount,fixed,100.00,active,2024-01-01 00:00:00,2024-12-31 23:59:59
+8,SUMMERSALE,Summer Clearance,percentage,30.00,active,2024-06-01 00:00:00,2024-08-31 23:59:59
+9,COUPON5,Flat 5% Discount,percentage,5.00,active,2024-09-01 00:00:00,2024-09-30 23:59:59
+10,EASTER10,Easter Special,fixed,10.00,inactive,2024-04-01 00:00:00,2024-04-30 23:59:59

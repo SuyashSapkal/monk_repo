@@ -1,0 +1,11 @@
+user_id,username,email,password_hash,first_name,last_name,created_at
+1,john_doe,john@example.com,$2b$12$uVuA4o03US7uF2WVpA2Xzmm9ZDhZl3a5oFzJkY5XxX93t9iL1.Gte,John,Doe,2024-01-01 00:00:00
+2,jane_smith,jane@example.com,$2b$12$EaP5nWzA4dL9WGvNUKHz9/q3zClXz1XmfQF9D2zB.6ugTn5t0FZna,Jane,Smith,2024-02-15 00:00:00
+3,bob_jones,bob@example.com,$2b$12$1Xc/JQnpZB57/8Vm6efhFgTc3IhgaBYvsl8wK8pD5aZ1p2wD1htM6,Bob,Jones,2024-03-01 00:00:00
+4,alice_brown,alice@example.com,$2b$12$Apv7dFQU04Q1YIT5AaljcMcTmHhv3gWztd9jDzxhOMXxWOC7zVE0x,Alice,Brown,2024-04-10 00:00:00
+5,charlie_clark,charlie@example.com,$2b$12$Pi89Zmh6vwhhbZ5r9H8OBg0wozEv5YxQpKT1OHXJ1j9LfgPwwFjLa,Charlie,Clark,2024-05-05 00:00:00
+6,david_williams,david@example.com,$2b$12$FbYzPqNGgK9xI8Y/lwZaOyBxYPVV5xaCOuxln4YrxzAq/fDNhsGOq,David,Williams,2024-06-15 00:00:00
+7,emma_taylor,emma@example.com,$2b$12$hpo1V.7pl8uyM4t19gYIc4i2foqz7pFd1sTx0EzPEV2jKcAYm5HeC,Emma,Taylor,2024-07-01 00:00:00
+8,george_miller,george@example.com,$2b$12$0bwbqwnAM5Fj1PzKlRG2W5bt6kxzdbKZoA9kWkP6tH2cH74ZwzfvW,George,Miller,2024-08-01 00:00:00
+9,olivia_davis,olivia@example.com,$2b$12$0Ghjt0oxdZL7PAK7.bwAGgY9nygI0D2XtU43ZdT6rH1jl3OjQbA8yi,Olivia,Davis,2024-09-01 00:00:00
+10,michael_lee,michael@example.com,$2b$12$H7sd9LB02MGzptI36OHkguWVzXbxsZ7w1X/ISgh5ygzXbZ9QWoAdui,Michael,Lee,2024-10-10 00:00:00
